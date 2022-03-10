@@ -1,0 +1,62 @@
+@{
+    ViewBag.Title = "Front End";
+    Layout = "~/Views/Shared/Base/_Layout.cshtml";
+}
+
+<div class="ui container">
+    <form class="ui form test-jet">
+        <div class="span-info">Preencha os campos abaixo!</div>
+        <div class="form-container">
+            <div class="four fields df-afe">
+                <div class="required field">
+                    <input id="name" type="text" name="name" placeholder="Nome: " />
+                </div>
+                <span class="provaJET" id="provaJETname" data-value="Nome"></span>
+                <div class="required field">
+                    <input name="Email" id="email" type="text" data-validate="email" placeholder="E-mail: " val />
+                </div>
+                <span class="provaJET-2" id="provaJETemail" data-value="Email"><b class="nishiishini"></b>&nbsp;<p></p></span>
+            </div>
+            <div class="four fields">
+                <div class="required field">
+                    <input class="masked mask_phone" id="phone" data-validate="phone" type="tel" name="phone" placeholder="(00) 00000-0000" val />
+                </div>
+                <span class="provaJET" id="provaJETphone"></span>
+                <div class="required field">
+                    <input type="text" id="subject" placeholder="Assunto: " val />
+                </div>
+                <span class="provaJET" id="provaJETsubject"></span>
+            </div>
+            <div class="two-fields text-area-div">
+                <div class="required field half-arera-div">
+                    <textarea class="textAreaProvaJet" rows="4" type="text" id="message" placeholder="Mensagem: " val ></textarea>
+                </div>
+                <div class="message-container field">
+                    <span class="provaJET-text-area" id="provaJETmessage"></span>
+                </div>
+            </div>
+        </div>
+        <button class="ui button" type="submit" id="btnSendProvaJET">Enviar</button>
+        <button class="ui button" type="submit" id="btnAttProvaJET">Atualizar Dados</button>
+    </form>
+</div>
+
+<div class="ui basic modal" style="border: 1px solid #fff;">
+    <div class="ui icon header">
+        <i class="edit icon"></i>
+    </div>
+    <div class="content" id="addText">
+    </div>
+    <div class="actions">
+        <div class="ui red basic cancel inverted button">
+        <i class="remove icon"></i>
+            Sair
+        </div>
+        <div class="ui green ok inverted button">
+        <a href="/hotsite/FrontEndAttData">
+            <i class="checkmark icon"></i>
+                Estou Ciente
+        </a>
+        </div>
+    </div>
+</div>

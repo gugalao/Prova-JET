@@ -1,0 +1,44 @@
+@{
+    ViewBag.Title = "Front End - Atualizar Dados";
+    Layout = "~/Views/Shared/Base/_Layout.cshtml";
+}
+
+<div class="ui container">
+    <form class="ui form test-jet">
+        <div class="span-info">Edite os campos abaixo para atualizar seus dados!</div>
+        <div class="form-container">
+            <div class="four fields df-afe">
+                <div class="required field">
+                    <input id="name" type="text" name="name" placeholder="Nome: " />
+                </div>
+                <span class="provaJET" id="provaJETname"></span>
+                <div class="required field">
+                    <input name="Email" id="email" type="text" data-validate="email" placeholder="E-mail: " val />
+                </div>
+                <span class="provaJET-2" id="provaJETemail"><b class="nishiishini"></b>&nbsp;<p></p></span>
+            </div>
+            <div class="four fields">
+                <div class="required field">
+                    <input class="masked mask_phone" id="phone" data-validate="phone" type="tel" name="phone" placeholder="(00) 00000-0000" val />
+                </div>
+                <span class="provaJET" id="provaJETphone"></span>
+                <div class="required field">
+                    <input type="text" id="subject" placeholder="Assunto: " val />
+                </div>
+                <span class="provaJET" id="provaJETsubject"></span>
+            </div>
+            <div class="two-fields text-area-div">
+                <div class="required field half-arera-div">
+                    <textarea class="textAreaProvaJet" rows="4" type="text" id="message" placeholder="Mensagem: " val ></textarea>
+                </div>
+                <div class="message-container field">
+                    <span class="provaJET-text-area" id="provaJETmessage"></span>
+                </div>
+            </div>
+        </div>
+        <div class="btn-container">
+            @* <button class="ui button" type="submit" id="btnShowPreviousInfo">Editar Dados</button> *@
+            <button class="ui button" type="submit" id="btnSendProvaJET2">Atualizar</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,182 @@
+.provaJET {
+    height: 38px;
+    line-height: 38px;
+    align-items: center;
+    padding: 0 .5em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 25%;
+    width: 25%;
+}
+
+.provaJET-2 {
+    height: 38px;
+    line-height: 38px;
+    align-items: center;
+    padding: 0 .5em;
+    max-width: 25%;
+    width: 25%;
+    display: flex;
+}
+
+.df-afe {
+    align-items: flex-end;
+}
+
+.textAreaProvaJet {
+    width: 50%;
+    resize: none !important;
+}
+
+.text-area-div{ 
+    display: flex;
+}
+
+.message-container {
+    width: 50%;
+    padding-left: 0.5em;
+}
+
+.provaJET-text-area{
+    line-break: anywhere;
+    display: flex;
+    padding: 0 0.5em;
+    min-height: 95px;
+}
+
+.half-arera-div{
+    width: 50%;
+}
+
+.ui.green.ok.inverted.button a {
+    color: #fff !important;
+}
+
+#addText p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.ui.modal {
+
+    .header {
+        border-bottom: 0;
+    }
+
+    .actions {
+        border-top: 0;
+    }
+}
+
+.ui.form.test-jet {
+    margin: 20px 0;
+}
+
+.fail {
+    border: 1px solid red;
+    background: #fdefef;
+    border-radius: 5px;
+}
+
+.sucess {
+    border: 1px solid green;
+    background: #eefbee;
+    border-radius: 5px;
+}
+
+button#btnSendProvaJET {
+    background: #fff;
+    color: #5CC02D;
+    display: flex;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: 1px solid #5CC02D;
+    transition: .3s ease;
+}
+
+button#btnSendProvaJET:hover {
+    background: #5CC02D;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #5CC02D;
+    transition: .3s ease;
+}
+
+button#btnAttProvaJET {
+    background: #fff;
+    color: #F76161;
+    display: flex;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: 1px solid #F76161;
+    transition: .3s ease;
+}
+
+button#btnAttProvaJET:hover {
+    background: #F76161;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #F76161;
+    transition: .3s ease;
+}
+
+button#btnShowPreviousInfo {
+    background: #fff;
+    color: #23475E;
+    display: flex;
+    width: 240px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: 1px solid #23475E;
+    transition: .3s ease;
+    margin-right: 20px;
+}
+
+button#btnShowPreviousInfo:hover {
+    background: #23475E;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #23475E;
+    transition: .3s ease;
+}
+
+button#btnSendProvaJET2 {
+    background: #fff;
+    color: #5CC02D;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: 1px solid #5CC02D;
+    transition: .3s ease;
+    cursor: pointer !important;
+}
+
+button#btnSendProvaJET2:hover {
+    background: #5CC02D;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #5CC02D;
+    transition: .3s ease;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.span-info {
+    font-size: 21px;
+    color: #1C1C1C;
+    font-weight: 700;
+    font-family: 'Zen Kaku Gothic Antique', "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
